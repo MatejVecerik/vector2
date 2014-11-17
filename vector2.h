@@ -104,7 +104,6 @@ vector2<Q> Map(std::function<Q(T)> func) const {
 T MeanSquared() const {
   return Map([](T a) {return a * a;}).Sum();
 }
-
 */
 
 template <class T>
